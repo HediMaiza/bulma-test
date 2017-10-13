@@ -1,0 +1,20 @@
+/*------------------------------*\
+	$MAIN CSS
+\*------------------------------*/
+
+.navbar-menu.is-active {
+	display: block;
+	text-align: center;
+}
+
+.footer {
+    background-color: #767474;
+}
+
+.footer a {
+	color: #FFF;
+}
+
+.footer a:hover {
+	color: #363636;
+}
