@@ -1,14 +1,19 @@
 /*------------------------------*\
-	$MAIN CSS
+	$FOOTER CSS
 \*------------------------------*/
 
-.navbar-menu.is-active {
-	display: block;
-	text-align: center;
-}
 
 .footer {
-    background-color: #767474;
+    background-color: #fff;
+    padding: 0;
+}
+
+.footer h1 {
+	font-size: 1.5rem;
+}
+
+.footer .image {
+	margin: 1rem auto;
 }
 
 .footer a {

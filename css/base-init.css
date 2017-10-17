@@ -1,0 +1,8 @@
+/*------------------------------*\
+	$BASE CSS
+\*------------------------------*/
+@media screen and (max-width: 1023px) {
+	body {
+		padding-top: 3.25rem;
+	}
+}

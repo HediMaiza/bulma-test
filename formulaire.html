@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Site responsive avec Bulma Css</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.css">
+		<link rel="stylesheet" href="css/base-init.css">
+		<link rel="stylesheet" href="css/base-typo.css">
+		<link rel="stylesheet" href="css/layout-header.css">
+		<link rel="stylesheet" href="css/layout-footer.css">
+		<link rel="stylesheet" href="css/forms.css">
+	</head>
+	<body>
+
+		
+		<div class="container">  <!-- Navigation -->
+
+			<nav class="navbar">
+
+				<div class="navbar-brand">
+					<a class="navbar-item column" href="http://bulma.io">
+						<span class="title is-4 is-size-5-mobile has-text-centered">FORMULAIRE DE NAISSANCE</span>
+					</a>
+					<div class="navbar-burger burger" data-target="navMenuTransparentExample">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>				
+
+				<div id="navMenuTransparentExample" class="navbar-menu">
+				    <div class="navbar-start">
+				      <div class="navbar-item has-dropdown">
+				        <a class="navbar-link" href="index.html">
+				          Accueil
+				        </a>
+
+				      </div>
+				      <div class="navbar-item has-dropdown">
+				        <a class="navbar-link activate" href="formulaire.html">
+				          Formulaire
+				        </a>
+				      </div>
+				      <div class="navbar-item has-dropdown">
+				        <div class="navbar-link">
+				          Savoir
+				        </div>
+				      </div>
+				      <div class="navbar-item has-dropdown">
+				        <div class="navbar-link">
+				          FAQ
+				        </div>
+				      </div>
+				      <a class="navbar-item has-dropdown" href="contact.html">
+				        <div class="navbar-link">
+				          Contact
+				        </div>
+				      </a>
+				    </div>
+
+				</div>
+			</nav> 	
+
+		</div> <!-- Navigation END -->	
+
+
+
+		<section class="hero">
+			
+			<div class="hero-body">
+				<div class="container">
+					<h1 class="title is-3 has-text-info has-text-centered">
+						Formulaire demande Acte de Naissance
+					</h1>
+
+					<div class="field notification">
+
+						<h2 class="subtitle is-4">Type d'acte</h2>
+						
+						<div class="columns form-element">
+							<label class="column label">Motif de la demande</label>
+							<div class="column control">
+								<div class="select">
+									<select>
+										<option>Carte nationale d'identité</option>
+										<option value="Passeport">Passeport</option>
+										<option value="PACS">PACS</option>
+										<option value="Mariage">Mariage</option>
+										<option value="Certificat de nationalité française">Certificat de nationalité française</option>
+										<option value="Procédure Judiciaire">Procédure Judiciaire</option>
+										<option value="Contentieux">Contentieux</option>
+										<option value="Pension">Pension</option>
+										<option value="Acte de notaire">Acte de notaire</option>
+										<option value="Vente">Vente</option>
+										<option value="Retraite">Retraite</option>
+										<option value="Caisse sécurité sociale">Caisse sécurité sociale</option>
+										<option value="Loi Archives">Loi Archives</option>
+										<option value="Autre">Autre</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="columns form-element">
+							<label class ="column label">Nature de l'acte</label>
+							<div class="column control">
+								<div class="select">
+									<select>
+										<option value="Copie Intégrale" selected="selected">Copie Intégrale</option>
+										<option value="Extrait d'acte avec filiation">Extrait d'acte avec filiation</option>
+										<option value="Extrait d'acte sans filiation">Extrait d'acte sans filiation</option>
+										<option value="Extrait Plurilingue">Extrait Plurilingue</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="columns form-element">
+							<label class ="column label">Nombre d'exemplaire</label>
+							<div class="column control">
+								<div class="select">
+									<select>
+										<option value="1" selected="selected">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="columns form-element">
+							<label class="column label">Username</label>
+							<div class="column control has-icons-left has-icons-right">
+								<input class="input is-success" type="text" placeholder="Text input" value="bulma">
+							</div>
+						</div>
+
+					</div>
+
+					<div class="field notification">
+						<h2 class="subtitle is-4">Identité du demandeur</h2>
+					  <label class="label">Email</label>
+					  <div class="control has-icons-left has-icons-right">
+					    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+					    <span class="icon is-small is-left">
+					      <i class="fa fa-envelope"></i>
+					    </span>
+					    <span class="icon is-small is-right">
+					      <i class="fa fa-warning"></i>
+					    </span>
+					  </div>
+					  <p class="help is-danger">This email is invalid</p>
+					</div>
+
+					<div class="field notification">
+						<h2 class="subtitle is-4">Identité des parents de la personne faisant l'objet de la demande</h2>
+					  <label class="label">Subject</label>
+					  <div class="control">
+					    <div class="select">
+					      <select>
+					        <option>Select dropdown</option>
+					        <option>With options</option>
+					      </select>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="field notification">
+						<h2 class="subtitle is-4">Adresse de réception de l'acte</h2>
+					  <label class="label">Message</label>
+					  <div class="control">
+					    <textarea class="textarea" placeholder="Textarea"></textarea>
+					  </div>
+					</div>
+
+					<div class="field notification">
+					  <div class="control">
+					    <label class="checkbox">
+					      <input type="checkbox">
+					      J'ai lu et j'accepte les <a href="#">conditions générales de ventes</a> et renonce à mon délai légal de rétractation. J'atteste avoir lu et compris le détail de la prestation.
+					    </label>
+					  </div>
+					</div>
+
+
+					<div class="field is-grouped">
+					  <div class="control">
+					    <button class="button is-link">Soumettre le formulaire</button>
+					  </div>
+					</div>
+
+				</div>				
+			</div>
+
+		</section>
+
+
+
+		<footer class="footer">
+			<section class="hero is-primary">
+			    <div class="hero-body">
+				    <div class="container has-text-centered">
+						<h1 class="title">
+						Besoin d'information pour vos démarches administratives en ligne ?
+						</h1>
+						<h2 class="subtitle">
+						Acte de mariage, décès, urgence....
+						</h2>
+						<a class="button is-medium is-link">
+							<span class="icon">
+								<i class="fa fa-phone"></i>
+							</span>
+							<span>Appelez le 0800 946 954</span>
+						</a>
+						<p class="free-call has-text-grey-lighter">Service et appel gratuit</p>		
+						<div class="column">		    
+							<figure class="image is-128x128">
+								<img src="http://lorempixel.com/200/200/people/">
+							</figure>
+						</div>
+				    </div>
+			    </div>
+			</section>
+
+
+			<section class="hero is-dark">
+				<div class="hero-body">
+				    <div class="container">
+						<div class="columns is-dark has-text-centered">
+							<div class="column">
+								<a href="#">Accueil</a>
+							</div>
+							<div class="column">
+								<a href="#">Contact</a>
+							</div>
+							<div class="column">
+								<a href="#">CGV</a>
+							</div>
+							<div class="column">
+								<a href="#">Mentions Légales</a>
+							</div>
+						</div>
+					</div>
+			  </div>
+			</section>
+		</footer>
+	<script>
+		var burger_element = document.querySelector('.burger');
+		var menu = document.querySelector('.navbar-menu');
+
+		burger_element.onclick = function() {
+		  burger_element.classList.toggle('is-active');
+		  menu.classList.toggle('is-active');
+		}
+	</script>
+	</body>
+</html>
