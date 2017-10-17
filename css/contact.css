@@ -1,0 +1,21 @@
+/*------------------------------*\
+	$CONTACT ELEMENTS CSS
+\*------------------------------*/
+
+.content-contact {
+	max-width: 650px;    
+	min-width: 50%;
+	margin: auto;
+}
+
+.content-contact .control, 
+.content-contact .label {
+	display: block;
+}
+
+
+.contact-text {
+	margin: 2rem;
+	margin-left: 0;
+}
+

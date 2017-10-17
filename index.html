@@ -4,9 +4,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Site responsive avec Bulma Css</title>
+
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
-		<link rel="stylesheet" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/base-init.css">
+		<link rel="stylesheet" href="css/base-typo.css">
+		<link rel="stylesheet" href="css/layout-header.css">
+		<link rel="stylesheet" href="css/layout-footer.css">
+		<link rel="stylesheet" href="css/forms.css">
 	</head>
 	<body>
 
@@ -29,13 +35,13 @@
 				<div id="navMenuTransparentExample" class="navbar-menu">
 				    <div class="navbar-start">
 				      <div class="navbar-item has-dropdown">
-				        <a class="navbar-link" href="#">
+				        <a class="navbar-link activate" href="index.html">
 				          Accueil
 				        </a>
 
 				      </div>
 				      <div class="navbar-item has-dropdown">
-				        <a class="navbar-link " href="#">
+				        <a class="navbar-link" href="formulaire.html">
 				          Formulaire
 				        </a>
 				      </div>
@@ -49,7 +55,7 @@
 				          FAQ
 				        </div>
 				      </div>
-				      <a class="navbar-item has-dropdown" href="#">
+				      <a class="navbar-item has-dropdown" href="contact.html">
 				        <div class="navbar-link">
 				          Contact
 				        </div>
@@ -66,7 +72,7 @@
 			
 			<div class="hero-body">
 				<div class="container">
-					<h1 class="title is-4 has-text-centered">
+					<h1 class="title is-3 has-text-centered">
 						Demandez votre Acte de Naissance en ligne
 					</h1>
 					
@@ -137,6 +143,7 @@
 		<section class="section">
 			<div class="container">
 				<h1 class="title has-text-centered has-text-info">Facilitez-vous la vie !</h1>
+				<hr>
 				<div class="content">
 					<div class="columns">
 						<div class="column has-text-centered">
@@ -171,23 +178,100 @@
 			</div>
 		</section>
 
-		<footer class="footer">
+		<section class="section">
 			<div class="container">
-				<div class="columns has-text-centered">
-					<div class="column">
-						<a href="#">Accueil</a>
-					</div>
-					<div class="column">
-						<a href="#">Contact</a>
-					</div>
-					<div class="column">
-						<a href="#">CGV</a>
-					</div>
-					<div class="column">
-						<a href="#">Mentions Légales</a>
+				<h1 class="title has-text-centered has-text-info">Si vous êtes français(e), né(e) à l'étranger</h1>
+				<hr>
+				<div class="content">
+					<div class="columns">
+						<div class="column has-text-centered">
+							<div class="subtitle has-text-info">
+								 
+								COMMENT L'OBTENIR ?
+							</div>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quae, ad praesentium aliquid saepe facere tenetur delectus cumque, velit, tempora totam excepturi ipsa.
+							</p>
+						</div>
+						<div class="column has-text-centered">
+							<div class="subtitle has-text-info">
+								
+								COUT D'OBTENTION ?
+							</div>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</p>
+						</div>
+						<div class="column has-text-centered">
+							<div class="subtitle has-text-info">
+								
+								APOSTILLE ?
+							</div>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, corrupti. Deserunt accusantium optio et enim laudantium est blanditiis quam voluptas commodi.
+							</p>
+						</div>						
+						<div class="column has-text-centered">
+							<div class="subtitle has-text-info">
+								
+								ACTES PLURILINGUES
+							</div>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, corrupti. Deserunt accusantium optio et enim laudantium est blanditiis quam voluptas commodi.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
+		</section>
+
+		<footer class="footer">
+			<section class="hero is-primary">
+			    <div class="hero-body">
+				    <div class="container has-text-centered">
+						<h1 class="title">
+						Besoin d'information pour vos démarches administratives en ligne ?
+						</h1>
+						<h2 class="subtitle">
+						Acte de mariage, décès, urgence....
+						</h2>
+						<a class="button is-medium is-link">
+							<span class="icon">
+								<i class="fa fa-phone"></i>
+							</span>
+							<span>Appelez le 0800 946 954</span>
+						</a>
+						<p class="free-call has-text-grey-lighter">Service et appel gratuit</p>		
+						<div class="column">		    
+							<figure class="image is-128x128">
+								<img src="http://lorempixel.com/200/200/people/">
+							</figure>
+						</div>
+				    </div>
+			    </div>
+			</section>
+
+
+			<section class="hero is-dark">
+				<div class="hero-body">
+				    <div class="container">
+						<div class="columns is-dark has-text-centered">
+							<div class="column">
+								<a href="#">Accueil</a>
+							</div>
+							<div class="column">
+								<a href="#">Contact</a>
+							</div>
+							<div class="column">
+								<a href="#">CGV</a>
+							</div>
+							<div class="column">
+								<a href="#">Mentions Légales</a>
+							</div>
+						</div>
+					</div>
+			  </div>
+			</section>
 		</footer>
 	<script>
 		var burger_element = document.querySelector('.burger');

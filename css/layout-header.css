@@ -1,0 +1,22 @@
+/*------------------------------*\
+	$NAVIGATION CSS
+\*------------------------------*/
+
+.navbar-menu.is-active {
+	display: block;
+	text-align: center;
+}
+
+.navbar-link.activate {
+	background-color: whitesmoke;
+}
+
+@media screen and (max-width: 1023px) {
+	.navbar {
+		position: fixed;
+	    width: 100%;
+	    z-index: 10;
+	    top: 0;
+	    height: 3.25rem;
+	}
+}
